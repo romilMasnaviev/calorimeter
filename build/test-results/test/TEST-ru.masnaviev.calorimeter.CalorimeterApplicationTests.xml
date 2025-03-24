@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.masnaviev.calorimeter.CalorimeterApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-21T18:48:18.682Z" hostname="MacBook-Air-Romil.local" time="0.401">
+  <properties/>
+  <testcase name="contextLoads()" classname="ru.masnaviev.calorimeter.CalorimeterApplicationTests" time="0.401"/>
+  <system-out><![CDATA[21:48:18.330 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [ru.masnaviev.calorimeter.CalorimeterApplicationTests]: CalorimeterApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:48:18.368 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration ru.masnaviev.calorimeter.CalorimeterApplication for test class ru.masnaviev.calorimeter.CalorimeterApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-03-21T21:48:18.510+03:00  INFO 17332 --- [calorimeter] [    Test worker] r.m.c.CalorimeterApplicationTests        : Starting CalorimeterApplicationTests using Java 21.0.6 with PID 17332 (started by romilmasnaviev in /Users/romilmasnaviev/dev/calorimeter)
+2025-03-21T21:48:18.511+03:00  INFO 17332 --- [calorimeter] [    Test worker] r.m.c.CalorimeterApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-03-21T21:48:18.679+03:00  INFO 17332 --- [calorimeter] [    Test worker] r.m.c.CalorimeterApplicationTests        : Started CalorimeterApplicationTests in 0.262 seconds (process running for 0.71)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/romilmasnaviev/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.15.11/a38b16385e867f59a641330f0362ebe742788ed8/byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
